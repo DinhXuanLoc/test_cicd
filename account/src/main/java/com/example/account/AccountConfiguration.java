@@ -16,6 +16,7 @@ import org.springframework.util.StringUtils;
 @Configuration(proxyBeanMethods = false)
 public class AccountConfiguration {
 
+
     @Bean
     public LifeCycleListener tracingExecutionListener() {
         return new TracingExecutionListener();
